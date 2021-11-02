@@ -1,0 +1,142 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Responsive design */
+@media screen and (max-width : 715px) {
+  header{
+      height: 100px;
+      background-position: 0 -25px;
+  }
+  header .mobile{
+      display: inline-block;
+  }
+  header .desktop{
+      display: none;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  header {
+      height: 250px;
+      background-position: 0 -20px;
+  }
+}
+
+.loginimg
+{
+  width:100%;
+  height:600px; 
+}
+
+.view-bg{
+  background-color:cornflowerblue;
+  background-image: url("./images/img2.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  height: 592px;
+  text-align: center;
+  
+}
+
+.post-bg{
+  background-image: url("./images/user.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  width: 100%;
+  height: 110%;
+  background-size: cover;
+  border: 1px solid red;
+  font-family: "Lucida Sans", sans-serif;
+  text-align: center;
+  display: inline-block;
+}
+
+
+
+.list-bg{
+  background-color: bisque;
+  display: flex;
+  padding: 10px;
+ 
+}
+
+.reg-bg{
+  background-image: url("./images/Home.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  height: 580px;
+  text-align: center;
+  display: inline-block;
+}
+
+.update-bg{
+  background-image: url("./images/download.jpg");
+  background-repeat: no-repeat;
+  background-size: cover ;
+  text-align: center;
+  height: 300%;
+  widows: 100%;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,700);
+
+* {
+  font-family: Roboto;
+}
+
+.footer-distributed{
+  position:absolute;
+   bottom:0;
+   width:100%;
+   height:110px;   
+   background:#6cf;
+}
+
+.login {
+  background-color: burlywood;
+}
+
+.amt{
+  background-color: cyan;
+}
+
